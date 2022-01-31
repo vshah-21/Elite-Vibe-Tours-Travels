@@ -1,2 +1,2 @@
-# Elite-Vibe-Tours-Travels
+# Elite-Vibe Tours&Travels
 WP Project
