@@ -1,2 +1,9 @@
-# Elite-Vibe Tours&Travels
-WP Project
+# Elite-Vibe Tours & Travels
+
+# Description 
+Elite-Vibe Tours & Travels is a tour & travel website, used to book travel tickets and promotes tourism. 
+Features : TBD
+Tech Stack : HTML, CSS, JavaScript, ... 
+
+
+# README file to be updated simultaneously.
