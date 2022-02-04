@@ -10,6 +10,7 @@ body {
 
 }
 
+/*
 img {
     display: block;
     width: 100%;
@@ -17,12 +18,15 @@ img {
     object-fit: cover;
     <img src: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80" alt:"">
     
-
-
-
 }
 
-
-p {
-    font-size: xx-large;
+.navbar-custom {
+    background-color: transparent;
+    border-color: black;
 }
+
+.navbar-custom .navbar-brand,
+.navbar-customer .navbar-text {
+        color:black
+    }
+*/
