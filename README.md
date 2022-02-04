@@ -3,7 +3,7 @@
 # Description 
 Elite-Vibe Tours & Travels is a tour & travel website, used to book travel tickets and promotes tourism. 
 Features : TBD
-Tech Stack : HTML, CSS, JavaScript, ... 
+Tech Stack : HTML, CSS, JavaScript, PHP ... 
 
 
 # README file to be updated simultaneously.
