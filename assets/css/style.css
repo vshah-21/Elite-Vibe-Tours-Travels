@@ -12,8 +12,32 @@ img {
     object-fit: cover;
     object-position: center;
     width: 100vw;
-    height: 50vh;
+    height: 75vh;
     margin-bottom: 20px;
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul{
+   justify-content: space-between;
+   padding: 0;
+   display: flex;
+   list-style-type: none;
+}
+
+nav li a {
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    height: 100%;
+}
+
+nav li a:hover {
+    color: red;
 }
 /*
 .navbar-custom {
