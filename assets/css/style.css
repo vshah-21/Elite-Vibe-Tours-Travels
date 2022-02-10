@@ -143,3 +143,8 @@ ul{
     width: 100%;
 }
 }
+
+.container {
+	width:250px;
+	margin: 0 auto;
+}
