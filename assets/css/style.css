@@ -26,6 +26,12 @@ img {
     height: 90vh;	
 }
 
+#custh1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 45px;
+	font-weight:400;
+}
+
 a {
     font-size: 18px;
     font-weight: bold;
