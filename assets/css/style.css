@@ -32,6 +32,18 @@ img {
 	font-weight:400;
 }
 
+#fonth {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 55px;
+	font-weight:400;
+}
+
+#fonth2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 30px;
+	font-weight:400;
+}
+
 a {
     font-size: 18px;
     font-weight: bold;
