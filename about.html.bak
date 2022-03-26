@@ -276,7 +276,6 @@
 function validateform() {
 var name = document.forms["FORMVAL"]["name"];
 var email = document.forms["FORMVAL"]["email"];
-
 if(name.value == "") {
 window.alert("Please enter appropriate Name");
 name.focus();
