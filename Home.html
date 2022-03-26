@@ -53,7 +53,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-
+    <php? include('newsl.php');?>
 
 
 
@@ -309,6 +309,7 @@
                         <label for="name" id="fonth2" >Sign up for our mailing list to get latest updates and offers.</label>
                         <input type="text" name="signup" id="name" placeholder="  Enter Your Email">
                     </div>
+                
                     <button type="submit">Send</button>
                 </form>
             </div>
@@ -379,39 +380,4 @@
     </body>
 </html>
 
-<?php
-$servername= "localhost";
-$username = "root";
-$password = "";
-$dname = "db0911";
-
-//create connection
-$conn = new mysqli($servername, $username, $password, $dname);
-
-//check connection
-if($conn->connect_error) { 
-die("Connection failed:".$conn->connect_error);
-}
-else { 
-echo "connection done";
-echo "<br>";
-}
-
-if (isset($_REQUEST['submit'])!='')
-{
-$signup=$_POST["signup"];
-echo"<br>";
-$sql="INSERT INTO signuptable (signup) VALUES ('$signup')";
-
-if (mysqli_query($conn,$sql))
-{
-echo "new record inserted";
-}
-else
-{
-echo mysqli_error($conn);
-}
-mysqli_close($conn);
-}
-?>
 
